@@ -1,0 +1,9 @@
+:where(div p) {
+  margin-top: 0px !important;
+  color: #ff838d;
+  @apply font-mono text-lg;
+}
+
+:where(div ul) {
+  margin-top: 0px !important;
+}

@@ -1,0 +1,26 @@
+@import url('https://api.fonts.coollabs.io/css2?family=Cabin&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$select-color: #ff838d;
+
+body {
+  background-color: #191717;
+  font-family: 'Cabin', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  @apply text-xl;
+}
+
+span {
+  color: white;
+}
+
+code {
+  background-color: white;
+  color: black;
+}

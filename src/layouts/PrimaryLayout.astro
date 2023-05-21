@@ -1,0 +1,30 @@
+---
+import { SEO } from 'astro-seo';
+import '../styles/preflight.scss';
+---
+
+<html lang='en'>
+  <head>
+    <SEO
+      charset='utf8'
+      title='Artie | Portfolio'
+      description='ArtieFuzzzz'
+      extend={{
+        link: [{ rel: 'icon', href: '/favicon.ico' }],
+        meta: [
+          {
+            name: 'viewport',
+            content: 'width=device-width',
+          },
+          { name: 'generator', content: Astro.generator },
+        ],
+      }}
+    />
+  </head>
+
+  <body>
+    <div class='prose prose-zinc'>
+      <slot />
+    </div>
+  </body>
+</html>
