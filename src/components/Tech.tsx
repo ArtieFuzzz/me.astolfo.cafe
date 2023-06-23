@@ -7,21 +7,29 @@ export default function() {
     <p>I don't have much motivation to work on majorly complex projects, one day I will <span>{':)'}</span></p>
     <p>Currently I'm looking around Networking.</p>
 
-    <p>Experience:</p>
-    <ul>
+    <details>
+      <summary>Languages I use</summary>
+      <ul>
       <li>
-        <p>React: <span>~</span> 1 - 2 Years</p>
+        <p>React</p>
       </li>
       <li>
-        <p>Svelte: <span>~</span> 6 Months</p>
+        <p>Svelte</p>
       </li>
       <li>
-        <p>Rust: 1<span>+</span> Years</p>
+        <p>Rust</p>
       </li>
       <li>
-        <p>Elixir: <span>~</span> 1 Year</p>
+        <p>Elixir</p>
+      </li>
+      <li>
+        <p>Kotlin</p>
+      </li>
+      <li>
+        <p>TypeScript (JavaScript)</p>
       </li>
     </ul>
+    </details>
 
     <p>View my GitHub profile <a href="https://github.com/ArtieFuzzz">here</a>.</p>
   </div>
