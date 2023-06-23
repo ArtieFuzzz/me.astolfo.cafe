@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@astrojs/preact": "^2.2.0",
-    "astro": "^2.4.1",
+    "@astrojs/vercel": "^3.5.0",
+    "astro": "^2.6.0",
     "astro-seo": "^0.7.2",
     "preact": "^10.6.5",
     "sass": "^1.62.1"
