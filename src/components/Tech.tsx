@@ -7,8 +7,8 @@ export default function() {
     <p>I don't have much motivation to work on majorly complex projects, one day I will <span>{':)'}</span></p>
     <p>Currently I'm looking around Networking.</p>
 
-    <details>
-      <summary>Languages I use</summary>
+    <details class='m-7 ml-0'>
+      <summary class='text-white'>Languages I use</summary>
       <ul>
       <li>
         <p>React</p>

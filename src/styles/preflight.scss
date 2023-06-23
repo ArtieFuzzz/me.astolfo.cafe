@@ -6,12 +6,22 @@
 
 $select-color: #ff838d;
 
+
+::-moz-selection {
+  background-color: $select-color;
+}
+
+::selection {
+  background-color: $select-color;
+}
+
 body {
   background-color: #191717;
   font-family: 'Cabin', sans-serif;
+  overflow-x: hidden;
 }
 
-a {
+a, summary {
   text-decoration: none;
   @apply text-xl;
 }
